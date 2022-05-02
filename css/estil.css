@@ -1,0 +1,297 @@
+	/* Autor de l'estil: Joel Herrero */
+
+		
+	/* Seccions 919191 	#d5d3c2		background:#858585;  */
+	
+		a {
+			color:#a78056; 
+			text-decoration:none;
+			}
+		a:hover {
+		color:#B6B6B6;		
+		}
+		body {
+			margin-left: 70px;			
+			padding-right: 5px;		
+			margin-right: 172px;
+			background:#d5d3c2;  
+			color:#000000;
+			font-family:arial;
+			font-size: 14px;	
+			/*
+			border-style: solid;
+			border-width: thin;
+			border-color: #000000; 
+			*/
+			}	
+		div.contingut {		
+			margin:0;	
+			margin-left: 20px;
+			margin-right: 20px;
+			padding-left: 5px;
+			top: auto;
+			}
+		
+		/* SESSIO */	
+		span.sessio {
+		color:#FFFFFF;
+		}
+		div.sessio {
+		background:#000000;	
+		width:1005px; 
+		height: 40px;
+		text-align: right;		
+		margin-bottom: -14px;
+		}
+
+			
+		div.eliminar {
+			background:#b7b5a6;		
+			width: 1000px;
+			}
+		
+	/* Header */	
+		div.header {
+		background:#000000; 
+		color:#66CCFF; 
+		width: 1005px;
+		} 
+
+	/* Footer */	
+		div.footer {
+		background:#000000; 
+		color:#fff; 
+		width: 1005px;
+		line-height: 30px; 
+		text-align: center;		
+		}
+		
+	/* Barra H1 */	
+		div.barra {
+			background:#000000; 
+			color:#fff; 
+			margin-top: -15px;
+			line-height: 40px; 
+			width: 1000px;		
+		} 	
+		
+	/* DIV Contenidor H2 el més utilitzat  -  b7b5a6 */	
+		div.barrah2 {
+			background:#b7b5a6; 
+			width: 1005px;
+			border-style: solid;
+			border-width: thin;
+			border-color: #000000;
+		} 	
+		
+
+	/* DIV Contenidor H2  B2CCCC - F2F5A9 */	
+		div.barrahc {
+			background:#F2F5A9; 
+			width: 1005px;
+			border-style: solid;
+			border-width: thin;
+			border-color: #000000;
+		} 
+		
+	/* DIV Contenidor H2 index  - */	
+		div.barrah2index {
+			position: relative;	
+			margin-bottom: 20px;
+			padding-bottom: 40px;
+			background:#b7b5a6; 
+			width: 1000px;
+			border-style: solid;
+			border-width: thin;
+			border-color: #000000;
+		} 	
+		
+	/* DIV Contenidor H2b index  - */	
+		div.barrah2bindex {
+			border-left-style: dotted;
+			border-color: #000000;
+			position: relative;
+			margin-left: 480px;
+			padding-left: 50px;
+			padding-right: 80px;
+			padding-bottom: 60px;
+			margin-bottom: 20px;
+			margin-top: -200px;		
+
+		} 	
+	/* Barra H3 */	
+		div.barrah3 {
+			background:#B6B6B6; 
+			width: 1000px;
+		} 	
+		
+	
+	/* Barra de navegacio */
+		div.nav {
+		background: #000000; 
+		color:#f9c; 
+		width:1005px; 
+		margin-top:0px;
+		}
+		ul.navbar
+		{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+		}
+		li.navbar
+		{
+		float:left;
+		}
+		a.navbar:link,a.navbar:visited
+		{
+		display:block;
+		width:193px;
+		font-weight:bold;
+		color:#FFFFFF;
+		background-color:#000000;
+		text-align:center;
+		padding:4px;
+		text-decoration:none;
+				/*text-transform:uppercase;*/
+		}
+		a.navbar:hover,a.navbar:active
+		{
+		background-color:#545454;
+		}
+		
+		/* Manual */
+		div.manual {
+		width:900px;
+		text-align:justify;
+		}
+		
+		/* Generics */		
+		h1{
+		font-family:arial;
+		font-size:20px;		
+		}
+		h2{
+		font-family:arial;
+		font-size:18px;
+
+		}
+		h3{
+		font-family:arial;
+		font-size:16px;		
+		}
+		
+		p{
+		font-family:arial;
+		font-size:14px;
+		font-color: #333333;
+		}
+	
+
+		/* Inputs */
+		.input {
+			 border: 1px solid #000000;
+			 background: #999999;
+		 }
+		 .input:hover {
+			 border: 1px solid #BCBCBC;
+			 background: #ABABAB;
+		 }
+		 
+		/* ######BOTONS###### */
+		/* Botons Insertar i Esborrar dels formularis*/
+		 .boto {
+			 border: 1px solid #000000;
+			 background: #999999;
+		 }
+		 .boto:hover {
+			 border: 1px solid #BCBCBC;
+			 background: #ABABAB;
+		/* Botó de Modificar*/
+		 }
+		 .botoa {
+			 border: 1px solid #000000;
+			 background: #999999; 	
+			 color: #FFFFF0;			 
+		 }
+		 .botoa:hover{
+			 border: 1px solid #BCBCBC;
+			 background: #005200;			 
+		 }
+		/* Botó d'Eliminar*/
+		 .botoe{
+			 border: 1px solid #000000;
+			 background: #999999; 		
+			 color: #FFFFF0;			 
+		 }
+		 .botoe:hover{
+			 border: 1px solid #BCBCBC;
+			 background: #800000;		 	 
+		 }
+		 
+		 
+		 label {
+			 display: block;
+			 width: 150px;
+			 float: left;
+			 margin: 2px 4px 6px 4px;
+			 text-align: right;
+		 }
+		 br { clear: left; }
+
+
+		/* TAULES */
+		
+		/* Files parells i senars en taules */	
+
+		tr:nth-child(even) {background: #D3D3D3 }
+		tr:nth-child(odd) {background: #FFFFFF}
+
+		
+		table.ampletaula {
+		width: 1000px;
+		}
+
+		/* Capçalera de les taules */
+		td.taula
+		{
+			background-color:#8A8A8A;
+		}
+		th.taula
+		{
+			background-color:#4E4E4E;
+			color:#FFFFFF;
+		}
+	/* Taules sense linies */
+		div.taulainici {
+			padding-left: 80px;
+			margin-right: 840px;
+			padding-bottom: 50px;
+			padding-top: 20px;
+	}	
+
+		
+		/* Taules generals*/			
+		table {
+			border-width: 0px;
+			border-spacing: 0px;
+			border-style: outset;
+			border-color: gray;
+			border-collapse: collapse;
+	}
+	table th {
+			border-width: 1px;
+			padding: 1px;
+			border-style: inset;
+			border-color: gray;
+			-moz-border-radius: ;
+	}
+	table td {
+			border-width: 1px;
+			padding: 1px;
+			border-style: inset;
+			border-color: gray;
+			-moz-border-radius: ;
+	}
+

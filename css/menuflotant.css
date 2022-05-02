@@ -1,0 +1,28 @@
+div.banner {
+  margin: 0;
+  font-size: 80% /*smaller*/;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+  position: fixed;
+  top: 2em;
+  left: auto;
+  width: 11em;
+  right: 2em;
+}
+div.banner p {
+  margin: 0;
+  padding: 0.3em 0.4em;
+  font-family: Arial, sans-serif;
+  border: thin outset #000000;
+  color: white;
+}
+
+div.banner a, div.banner em { display: block; margin: 0 0.5em }
+div.banner a, div.banner em { border-top: 2px groove #000000 }
+div.banner a:first-child { border-top: none }
+div.banner em { color: #000000 }
+
+div.banner a:link { text-decoration: none; color: #b7b5a6 }
+div.banner a:visited { text-decoration: none; color: #b7b5a6 }
+div.banner a:hover { background: black; color: white }
